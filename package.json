@@ -1,0 +1,15 @@
+{
+  "name": "objects",
+  "version": "1.0.0",
+  "description": "A practice place for working with objects.",
+  "main": "index.js",
+  "dependencies": {
+    "object.entries": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

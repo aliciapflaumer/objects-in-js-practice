@@ -11,23 +11,6 @@ for (let property in fruits) {
 }
 // console.log(string)
 
-//
-
-const data = {
-  "pages": [
-    {
-      "address":"http://foo.bar.com/p1",
-      "links": ["http://foo.bar.com/p2", "http://foo.bar.com/p3", "http://foo.bar.com/p4"]
-    }
-  ]
-}
-
-let result = ""
-
-for (let unique in data) {
-  result = result + data[unique] + " "
-}
-console.log(data)
 
 
 

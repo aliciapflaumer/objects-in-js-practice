@@ -17,7 +17,7 @@ const data1 = {
 
 let result = ""
 let keys1 = Object.keys(data1)
-// let values = Object.values(data1)
+let values = Object.values(data1)
 
 for (let unique in data1) {
   result = result + data1[unique] + " "
@@ -29,5 +29,8 @@ for (let unique in data1) {
 // console.log(keys1)
 // outputs: `[ 'address', 'links' ]`
 
-
-// console.log(values)
+console.log(values)
+// outputs: `[ 'http://foo.bar.com/p1',
+  // [ 'http://foo.bar.com/p2',
+  //   'http://foo.bar.com/p3',
+  //   'http://foo.bar.com/p4' ] ]`

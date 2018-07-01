@@ -6,7 +6,9 @@
   "dependencies": {
     "object.entries": "^1.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
